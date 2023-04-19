@@ -75,4 +75,6 @@ e salve com nome de copiar.bat (extensão .bat e não .txt)
 
 Espero ter ajudado!
 
+Website: https://exatasoft.com
+
 Prof. Marcelo Brito. 
