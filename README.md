@@ -1,13 +1,31 @@
-"Como copiar pastas e arquivos ignorando todos os arquivos de uma determinada extensão no Windows 10?"
-Você pode usar os seguintes comandos no prompt do windows:
+# Copiar.bat | Copiar pastas e arquivos ignorando todos os arquivos de uma determinada extensão. 
+<p align="center">
+<img src="https://repository-images.githubusercontent.com/630184706/86ddc77c-2379-4ac4-9df2-70a1928ccb6e" alt="Copiar.bat | Copiar pastas e arquivos ignorando todos os arquivos de uma determinada extensão."/>
+<p/>
+
+<h4 align="center">Como copiar pastas e arquivos ignorando todos os arquivos de uma determinada extensão no Windows 10?</h4>
+
+## Descrição - Script
+
+* Script - Copiar.bat
+* Autor: Prof. Marcelo Brito.
+* Data : 25/03/2023.
+* Sobre: Copia pastas e arquivos ignorando todos os arquivos de uma determinada extensão no Windows.
+         Arquivo de Lote (.bat), roda no prompt(cmd).       
+
+
+
+## "Como copiar pastas e arquivos ignorando todos os arquivos de uma determinada extensão no Windows 10?"
+
+### Você pode usar os seguintes comandos no prompt do windows:
 
 Tem um script pronto para baixar, no final desta "resposta" …
 
-(i) Ignorando apenas uma extensão:
+#### (i) Ignorando apenas uma extensão:
 
 echo .ext1 > arq.txt & xcopy /E/C/Q/Y/I /EXCLUDE:arq.txt "origem" "destino"
 
-(ii) Ignorando mais de uma extensão:
+#### (ii) Ignorando mais de uma extensão:
 
 (echo .ext1 & echo .ext2 ) > arq.txt & xcopy /E/C/Q/Y/I /EXCLUDE:arq.txt "origem" "destino"
 
@@ -25,9 +43,9 @@ A opção /E serve para copiar todas as subpastas da pasta de origem.
 
 ———————————————————————
 
-Exemplos de como usar os comandos acima:
+### Exemplos de como usar os comandos acima:
 
-Exemplo1: (ignorando apenas uma extensão)
+#### Exemplo1: (ignorando apenas uma extensão)
 
 No windows(7/8.x/10),
 
@@ -53,7 +71,7 @@ Neste caso: temos .jpg como a extensão a ser ignorada,
             e a de destino sendo a PastaB 
 Ignorando mais de uma extensão:
 
-Exemplo2: (ignorando duas extensões)
+#### Exemplo2: (ignorando duas extensões)
 
 (echo .txt & echo .jpg) > arq.txt & xcopy /E/C/Q/Y/I /EXCLUDE:arq.txt  "%USERPROFILE%\Downloads"  "%USERPROFILE%\Documentos" 
 Exemplo3: (ignorando três extensões)
@@ -65,7 +83,7 @@ Se precisar parar a execução do comando, tecle CRTL + C
 
 Para um uso constante crie um arquivo de lote (.bat), copie e cole o comando nele, alterando conforme as suas necessidades. Exemplo: crie um arquivo chamado copiar.bat copie o comando, altere como desejar e salve em uma pasta. Aí só clicar pelo windows (não precisa entrar no cmd).
 
-Resolvi criar este escript, roda no cmd (prompt do windows):
+## Resolvi criar este escript, roda no cmd (prompt do windows):
 
 Baixe aqui: https://exatasoft.com/files/copiar.bat (se tiver problemas em baixar pelo github)
 
@@ -75,6 +93,6 @@ e salve com nome de copiar.bat (extensão .bat e não .txt)
 
 Espero ter ajudado!
 
-Website: https://exatasoft.com
+## Website: https://exatasoft.com
 
 Prof. Marcelo Brito. 
