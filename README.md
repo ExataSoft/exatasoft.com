@@ -58,6 +58,7 @@ Tecle: ENTER
 Copie e cole na tela que abrir o seguinte comando:
 
 echo .txt > arq.txt & xcopy /E/C/Q/Y/I /EXCLUDE:arq.txt  "%USERPROFILE%\Downloads"  "%USERPROFILE%\Documentos" 
+
 O comando acima irá copiar todo o conteúdo da sua pasta de downloads, ignorando os arquivos com extensão ".txt" (de texto), para sua pasta de documentos do windows.
 
 Obs: %USERPROFILE% é o caminho padrão da sua pasta de "usuário" do windows.
@@ -74,9 +75,11 @@ Ignorando mais de uma extensão:
 #### Exemplo2: (ignorando duas extensões)
 
 (echo .txt & echo .jpg) > arq.txt & xcopy /E/C/Q/Y/I /EXCLUDE:arq.txt  "%USERPROFILE%\Downloads"  "%USERPROFILE%\Documentos" 
-Exemplo3: (ignorando três extensões)
+
+#### Exemplo3: (ignorando três extensões)
 
 (echo .txt & echo .jpg & echo .bmp) > arq.txt & xcopy /E/C/Q/Y/I /EXCLUDE:arq.txt  "%USERPROFILE%\Downloads"  "%USERPROFILE%\Documentos" 
+
 Obs: Quando for apenas testar os comandos recomendo retirar a opção /E . A opção /E serve para copiar todas as subpastas e isso pode demorar bastante dependendo do tamanho do conteúdo da sua pasta de downloads. Quando for "para valer" deixe esta opção indicada.
 
 Se precisar parar a execução do comando, tecle CRTL + C
