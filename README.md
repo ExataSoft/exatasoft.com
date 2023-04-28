@@ -1,4 +1,4 @@
-# Copiar.bat | Copiar pastas e arquivos ignorando todos os arquivos de uma determinada extensão. 
+# Copiar.bat | Copiar pastas e arquivos ignorando todos os arquivos de uma determinada extensão . 
 <p align="center">
 <img src="https://repository-images.githubusercontent.com/630184706/86ddc77c-2379-4ac4-9df2-70a1928ccb6e" alt="Copiar.bat | Copiar pastas e arquivos ignorando todos os arquivos de uma determinada extensão."/>
 <p/>
